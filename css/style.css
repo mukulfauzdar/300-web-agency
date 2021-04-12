@@ -8267,4 +8267,55 @@ header {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
+/* new cahnges  */
+#topbar{
+  padding:5px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding-top: 2px;
+}
+.tpbar{
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+}
+#btn{
+  
+  padding: 6px 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  color: black;
+  background: rgba(255, 255, 255, 0.3);
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10pt;
+  margin-top: 120px;
+  border: 2px solid black;
+  transition: 0.5s;
+  outline: none;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#btn:hover{
+  background-color: white;
+  cursor: pointer;
+}
 
+.Phone{
+  text-align: right;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (max-width: 767px) { 
+  #topbar{
+      display:none;
+  }
+}
+#icon{
+  width: 2px;
+  height: 2px;
+}
